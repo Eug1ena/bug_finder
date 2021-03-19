@@ -5,8 +5,10 @@
 ## 使い方
 1. このツール全体をcloneしてください。<br>
 `$ git clone https://github.com/Eug1ena/bug_finder`
-2. bug_code.cppにバグのあるコードを、correct_code.cppにバグの無いコードを、testcase_maker.cppにテストケース生成コードを入れてください。
-3. checker.pyをpython3で実行して下さい。この時に引数が要りますが、この説明は後述します。
+2. bug_code.cppにバグのあるコードを、<br>
+correct_code.cppにバグの無いコードを、<br>
+testcase_maker.cppにテストケース生成コードを入れてください。
+3. checker.pyを実行して下さい。この時に引数が要りますが、この説明は後述します。<br>
 `$ python3 checker.py 引数`
 4. 実行すると、反例があれば1つ出力され、無ければ正常に終了した旨が伝えられます。<br>
 (ただし、3つのC++のコードのいずれかにコンパイルエラーや実行時エラーがある場合はそれが表示されます。)
