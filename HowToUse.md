@@ -1,4 +1,4 @@
-# How To Use
+# How to use
 
 ## コード
 

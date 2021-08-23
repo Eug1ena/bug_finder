@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include "library.hpp"
 using namespace std;
-random_device rnd;
 
 int main(){
-    int a = rnd() % 6 + 1, b = rnd() % 6 + 1;
+    int a = rnd::choose(1, 9), b = rnd::choose(1, 9);
     cout << a << " " << b << endl;
 }
