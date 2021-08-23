@@ -23,7 +23,7 @@ checker.py を実行します。
 $ python3 checker.py [テストケース数]
 ```
 
-詳細な使い方は [How to use](/How to use.md) を参照してください。
+詳細な使い方は [How to use](/HowToUse.md) を参照してください。
 
 ## ライブラリ
 
