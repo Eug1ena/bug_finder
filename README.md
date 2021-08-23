@@ -23,10 +23,10 @@ checker.py を実行します。
 $ python3 checker.py [テストケース数]
 ```
 
-詳細な使い方は [How to use](/HowToUse.md) を参照してください。
+詳細な使い方は [How to use](/docs/HowToUse.md) を参照してください。
 
 ## ライブラリ
 
 library.hpp をインクルードすることで、ランダム関係のいくつかのライブラリが利用できます。
 
-ライブラリの一覧は [Library](/Library.md) を参照してください。
+ライブラリの一覧は [Library](/docs/Library.md) を参照してください。
